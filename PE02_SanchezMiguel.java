@@ -26,5 +26,32 @@ public class PE02_SanchezMiguel {
             System.out.println("(2.) Explorar el laboratori cientific");
             int decisio1 = k.nextInt();
 
+                        if (decisio1 == 1) {
+                System.out.println("El passsadís es bifurca en dues direccions.");
+                System.out.println("A l'esquerra, una porta blindada mig oberta deixa escapaar un so metàl·lic ritmic.");
+                System.out.println("A la dreta, un passadis llarg i fosc sembla perdre's en la foscor.");
+                System.out.println("Quin camí agafes?");
+                System.out.println("(1.) Porta blindada de l'esquerra.");
+                System.out.println("(2.) Passadis de la dreta.");
+                int decisio2 = k.nextInt();
+
+                if (decisio2 == 1) {
+                    System.out.println("A dins hi ha una sala amb una consola plena de llums vermelles.");
+                    System.out.println("Sembla que controla el sistema d'oxigen de tota l'estaciò.");
+                    System.out.println("El panell està en estat critic i cal decidir rapid.");
+                    System.out.println("Que fas?");
+                    System.out.println("(1.) Intentar reparar el sistema.");
+                    System.out.println("(2.) Ignorar la consola.");
+                    int decisio3 = k.nextInt();
+
+                    if (decisio3 == 1 && teCasc) {
+                        System.out.println(" (FINAL HEROIC): Aconsegueixes reparar el sistema i restaures l'oxigen");
+                    } else if (decisio3 == 1 && (teCasc == false)) {
+                        System.out.println("(FINAL HORRORÓS): Els gasos tòxics t'ofeguen.");
+                    } else {
+                        System.out.println("(FINAL NEUTRE): Veus que hi ha una nau que funciona, marxes amb el misteri sense resoldre.");
+                    }
+                }
+            }
     }
 }
