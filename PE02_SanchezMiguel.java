@@ -18,5 +18,13 @@ public class PE02_SanchezMiguel {
                 teCasc =  true;
             }
 
+            System.out.println("Avances pel passadis principal, il·luminat només per llums vermelles intermitents.");
+            System.out.println("El silenci és trencat de tant en tant per algun grinyol metàl·lic de l'estructura.");
+            System.out.println("A la teva esquerra hi ha el mòdul de comandament; a la dreta el laboratori cientfic.");
+            System.out.println("A on vas?");
+            System.out.println("(1.) Entrar al modul de comandament.");
+            System.out.println("(2.) Explorar el laboratori cientific");
+            int decisio1 = k.nextInt();
+
     }
 }
